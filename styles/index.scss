@@ -1,0 +1,5 @@
+@use '_variables.scss' as v;
+@use '_importer.scss';
+body {
+  background-color: v.$color_blue;
+}

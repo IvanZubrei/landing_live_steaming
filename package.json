@@ -1,0 +1,25 @@
+{
+  "name": "live-streaming",
+  "version": "1.0.0",
+  "description": "landing page",
+  "sourse": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanZubrei/landing_live_steaming.git"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanZubrei/landing_live_steaming/issues"
+  },
+  "homepage": "https://github.com/IvanZubrei/landing_live_steaming#readme",
+  "dependencies": {
+    "sass": "^1.80.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.0"
+  }
+}
