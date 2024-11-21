@@ -4,7 +4,9 @@
   "description": "landing page",
   "sourse": "index.html",
   "scripts": {
-    "sass:watch": "sass --style=expanded --watch styles:dist"
+    "sass:watch": "sass --style=expanded --watch styles:dist",
+    "parcel:watch": "parcel serve --dist-dir public",
+    "parcel:build": "parcel build index.html --dist-dir build --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -13,13 +15,14 @@
   "author": "Ivan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IvanZubrei/landing_live_steaming/issues"
+    "url": "https://github.com/IvanZucerbrei/landing_live_steaming/issues"
   },
   "homepage": "https://github.com/IvanZubrei/landing_live_steaming#readme",
   "dependencies": {
     "sass": "^1.80.7"
   },
   "devDependencies": {
-    "parcel": "^2.13.0"
+    "parcel": "^2.13.0",
+    "svgo": "^3.3.2"
   }
 }
